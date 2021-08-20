@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+  padding: 0 20px;
+  margin: 0;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 1em;
+}
+
+.target {
+  position: absolute;
+  border-bottom: 4px solid transparent;
+}
+
+.mynav a,
+.target {
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35 ease-in-out;
+}
